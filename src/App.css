@@ -1,5 +1,11 @@
+:root {  /* Some variables, these are the default values of these variables*/
+  --decoration: #00a9e2;
+}
 .App {
   text-align: center;
+  position: absolute;
+  top: 0px;
+  width: 100%;
 }
 
 .App-logo {
@@ -17,13 +23,24 @@
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
+  width:100%;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+.Sebastain {
+  bottom:37.35vh;
+  width:100vw;
+  position:relative;
+}
+.navBarItems {
+  column-count: 2; /* Change the number of columns as per your requirement */
+  column-gap: 20px; /* Adjust the gap between columns if needed */
+  column-rule: 2px solid var(--decoration); /* Changes the column style  */
+  margin: auto;
+}
 .App-link {
   color: #61dafb;
 }
