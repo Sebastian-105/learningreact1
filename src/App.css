@@ -26,21 +26,36 @@
   width:100%;
   flex-direction: column;
   align-items: center;
+  text-align: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
-.Sebastain {
-  bottom:37.35vh;
-  width:100vw;
-  position:relative;
+#navbar1 {
+  text-align: center;
+  margin: auto;
+  width: 100%;
+}
+#sebastian {
+  position: relative;
+  float: right;
+  width:100%;
+  z-index: 9999;
+}
+.Sebastian {
+  position: fixed;
+  top: 0;
+  text-align: center;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
 }
 .navBarItems {
-  column-count: 2; /* Change the number of columns as per your requirement */
-  column-gap: 20px; /* Adjust the gap between columns if needed */
-  column-rule: 2px solid var(--decoration); /* Changes the column style  */
   margin: auto;
+  text-align: center;
+
 }
+
 .App-link {
   color: #61dafb;
 }
